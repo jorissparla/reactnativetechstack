@@ -10,8 +10,8 @@ const App = () => {
   const { textStyle } = styles
   return (
     <Provider store={createStore(reducers)}>
-      <View >
-        <Header headerText='Tech Stack' />
+      <View style={{flex:1}}>
+        <Header headerText='Tech Stack⌛' />
         <LibraryList/>
       </View>   
     </Provider>
